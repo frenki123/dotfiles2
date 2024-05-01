@@ -1,0 +1,142 @@
+{
+	"editor.formatOnSave": true,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingComments": "never",
+	"editor.autoClosingDelete": "never",
+	"editor.autoClosingOvertype": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.autoSurround": "never",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.fontFamily": "'JetBrainsMono NF'",
+	"editor.fontSize": 14,
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"breadcrumbs.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.lineNumbers": "relative",
+	"workbench.colorTheme": "Catppuccin Macchiato",
+	"workbench.activityBar.location": "bottom",
+	"window.customTitleBarVisibility": "auto",
+	"window.menuBarVisibility": "toggle",
+	"workbench.settings.editor": "json",
+	"workbench.settings.openDefaultSettings": true,
+	"vim.highlightedyank.enable": true,
+	"vim.hlsearch": true,
+	"vim.leader": "<space>",
+	"vim.insertModeKeyBindings": [],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"<leader>",
+				"p"
+			],
+			"after": [
+				"\"",
+				"+",
+				"p"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"y"
+			],
+			"after": [
+				"\"",
+				"+",
+				"y"
+			]
+		},
+		{
+			"before": [
+				"<Esc>"
+			],
+			"commands": [
+				":nohl"
+			]
+		},
+		{
+			"before": [
+				"K"
+			],
+			"commands": [
+				"editor.action.showDefinitionPreviewHover"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"F"
+			],
+			"commands": [
+				"editor.action.formatDocument"
+			]
+		},
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"<leader>",
+				"p"
+			],
+			"after": [
+				"\"",
+				"+",
+				"p"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"y"
+			],
+			"after": [
+				"\"",
+				"+",
+				"y"
+			]
+		},
+		{
+			"before": [
+				"<C-k>",
+			],
+			"commands": [
+				"editor.action.moveLinesUpAction"
+			],
+		},
+		{
+			"before": [
+				"<C-j>",
+			],
+			"commands": [
+				"editor.action.moveLinesDownAction"
+			]
+		}
+	],
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": false,
+		"<C-z>": false
+	},
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 1
+	},
+	"catppuccin.bracketMode": "neovim",
+	"catppuccin.accentColor": "rosewater",
+	"python.terminal.activateEnvInCurrentTerminal": true,
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.typeCheckingMode": "strict",
+	"python.analysis.importFormat": "relative",
+	"[python]": {
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.wordBasedSuggestions": "off",
+		"editor.codeActionsOnSave": {
+			"source.fixAll": "explicit",
+			"source.organizeImports": "explicit"
+		},
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	}
+}
